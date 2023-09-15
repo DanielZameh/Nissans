@@ -1,1 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>BMW</title>
+      <link rel="stylesheet" href="style.css">
+   </head>
+
+   <body>
+   <div class="loader-container">
+        <div class="loader"></div>
+    </div>
+      <section id="intro">
+         <div id="splash-screen">
+            <div class="splash-content">
+               <h1 class="mercedes-title"> BMW </h1>
+            </div>
+         </div>
+      </section>
+      <header>
+         <nav>
+            <ul>
+               <li><a href="#home">Home</a></li>
+               <li><a href="#products">Our Series</a></li>
+               <li><a href="#contact">Contact Us</a></li>
+            </ul>
+         </nav>
+      </header>
+      <main>
+         <section id="home">
+            <div id="content">
+               <h2>Introducing the Swifty Driving Experience with Nissan!</h2>
+               <p>Get ready to experience the epitome of automotive excellence with Nissan. Combining Japanese craftsmanship, cutting-edge technology, and unmatched performance, Nissan vehicles redefine the driving experience. From sleek sedans to rugged SUVs, each model showcases a perfect blend of style and functionality. Buckle up for innovation, reliability, and a thrilling journey on the road ahead with Nissan.</p>
+            </div>
+         </section>
+         <section id="products">
+            <div id="content">
+               <h2>Our Premium Selection</h2>
+               <div class="product"> <img src="http://s3.caradvice.com.au/wp-content/uploads/2016/09/2017-Nissan-GT-R-48.jpg">
+                  <h3>Nissan GTR</h3>
+                  <p>Unleash your inner speed demon with the iconic Nissan GTR. This legendary sports car combines breathtaking power and precision engineering, delivering an exhilarating driving experience that pushes the boundaries of performance.</p>
+               </div>
+
+               <div class="product"> <img src="https://car-images.bauersecure.com/pagefiles/90666/ariya_055.jpg">
+                  <h3>Nissan Ariya</h3>
+                  <p>Embrace the future of electric mobility with the Nissan Ariya. This sleek and spacious crossover SUV offers impressive range, advanced technology, and a refined design, making it a perfect choice for those seeking sustainable and luxurious driving.</p>
+               </div>
+
+               <div class="product"> <img src="https://tflcar.com/wp-content/uploads/2017/05/2017-nissan-rogue-sport-driving.jpg" alt="Product 3">
+                  <h3>Nissan Rogue Sport</h3>
+                  <p>Experience the perfect blend of sportiness and versatility with the Nissan Rogue Sport. This compact SUV offers a dynamic driving experience, sleek styling, and advanced safety features, making it a stylish and practical choice for urban adventures and beyond.
+                  </p>
+               </div>
+            </div>
+         </section>
+         <section id="contact" class="contact-us">
+            <div id="content">
+
+               <title>Nissan Enthusiast Form</title>
+               <link rel="stylesheet" type="text/css" href="style.css">
+               </head>
+
+               <body>
+                  <div class="form-container">
+                     <h2>Nissan Enthusiast Form</h2>
+                     <form>
+                        <label for="fullName">Full Name:</label>
+                        <input type="text" id="fullName" name="fullName" required>
+
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="phone">Phone Number (optional):</label>
+                        <input type="tel" id="phone" name="phone">
+
+                        <h3>Nissan Experience:</h3>
+                        <label for="currentOwner">Are you a current Nissan owner?</label>
+                        <input type="radio" id="currentOwnerYes" name="currentOwner" value="Yes">
+                        <label for="currentOwnerYes">Yes</label>
+                        <input type="radio" id="currentOwnerNo" name="currentOwner" value="No">
+                        <label for="currentOwnerNo">No</label>
+
+                        <label for="nissanModels">If yes, which Nissan model(s) do you own?</label>
+                        <input type="text" id="nissanModels" name="nissanModels">
+
+                        <label for="ownershipDuration">How long have you been a Nissan owner?</label>
+                        <input type="text" id="ownershipDuration" name="ownershipDuration">
+
+                        <h3>Nissan Favorites:</h3>
+                        <label for="favoriteModel">What is your favorite Nissan model and why?</label>
+                        <textarea id="favoriteModel" name="favoriteModel" rows="4"></textarea>
+
+                        <label for="favoriteFeature">Which Nissan feature or technology do you love the most?</label>
+                        <textarea id="favoriteFeature" name="favoriteFeature" rows="4"></textarea>
+                        <button type="submit" class="neon-button">Submit</button>
+
+                        </footer>
+                        <script src="script.js"></script>
+               </body>
+         <script>
+        // Optional: Show the loader when the page loads
+        document.addEventListener("DOMContentLoaded", function() {
+            var loader = document.querySelector(".loader-container");
+            loader.style.display = "block";
+        });
+
+        // Optional: Hide the loader after a specific delay (e.g., 2 seconds)
+        setTimeout(function() {
+            var loader = document.querySelector(".loader-container");
+            loader.style.display = "none";
+        }, 2000);
+    </script>
+</html>
 
